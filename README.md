@@ -93,11 +93,14 @@ Insertion, search, and deletion running time (reversed):
 Document the source of your dataset and any modifications you made to it. Describe the results of your analysis and 
 how it compares to the theoretical performance of the hash table operations.
 
-Dataset Source: // FINISH ME
+Dataset Source: // FINISH ME 
+Parks and Rec Episodes. Retrieved September 19, 2024 from https://www.kaggle.com/datasets/bcruise/parks-and-recreation-episode-data
 
 Dataset Modifications ("None" if unchanged): // FINISH ME
+Took a comma out of the titles in rows 69 and 111. 
 
-Result Analysis: // FINISH ME
+Result Analysis: // FINISH ME 
+Since the average time complexity for a hash table's search, insert, deletion operations is O(1), I expect that the running time for each of those operations will be approximately the same. 
 
 ## Submission:
 

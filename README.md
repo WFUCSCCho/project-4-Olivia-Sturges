@@ -82,22 +82,32 @@ it to this repository.
 
 Insertion, search, and deletion running time (already sorted):
 
-![Firefly picture of a cat 86147](https://github.com/user-attachments/assets/8b2d008e-3011-4979-97b8-fa2e9886a01a)
+
+<img width="596" alt="Screenshot 2024-12-04 at 12 45 23 PM" src="https://github.com/user-attachments/assets/34948ad5-30db-433a-ba74-02b5e231d0aa">
 
 
 Insertion, search, and deletion running time (shuffled):
 
+<img width="596" alt="Screenshot 2024-12-04 at 12 45 49 PM" src="https://github.com/user-attachments/assets/1fa5a90c-4fe3-4385-bb16-892e0d8d7c1a">
+
+
 Insertion, search, and deletion running time (reversed):
+
+<img width="589" alt="Screenshot 2024-12-04 at 12 46 56 PM" src="https://github.com/user-attachments/assets/fed0808b-c50f-4702-b1d2-4e3d094c1ce8">
+
 
 ## 5. **Document your Dataset and Results**
 Document the source of your dataset and any modifications you made to it. Describe the results of your analysis and 
 how it compares to the theoretical performance of the hash table operations.
 
-Dataset Source: // FINISH ME
+Dataset Source: // FINISH ME 
+Parks and Rec Episodes. Retrieved September 19, 2024 from https://www.kaggle.com/datasets/bcruise/parks-and-recreation-episode-data
 
 Dataset Modifications ("None" if unchanged): // FINISH ME
+Took a comma out of the titles in rows 69 and 111. 
 
-Result Analysis: // FINISH ME
+Result Analysis: // FINISH ME 
+Since the average time complexity for a hash table's search, insert, deletion operations is O(1), I expect that the running time for each of those operations will be approximately the same. Looking at the graphs above, we can see that this somewhat happened. For the already sorted list, the search and delete operations took approximately same amount of time while the insert operation took longer. For the shuffled list, the insert and delete operations took approximately same amount of time until around N = 60. None of the operations took approximately the same time for the reversed list. 
 
 ## Submission:
 
